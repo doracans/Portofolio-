@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -6,19 +7,18 @@ export default {
   ],
   theme: {
     extend: {
-      //colors used in the project
-      colors:{
-        primary:"#F6A64F",
-        secondary:"#b56141",
-        background:"#FFFCF8",
+      // Colors used in the project
+      colors: {
+        primary: "#6C55E1",
+        secondary: "#4B39B2", // warna sekunder yang lebih gelap dari primary
+        background: "#F9F8FE", // latar belakang lembut bernuansa ungu
         white: '#FBFBFB',
       },
 
-      backgroundImage:{
-        'gradient-primary':'linear-gradient(to right, #f4a44f, #ac573f)',
+      backgroundImage: {
+        'gradient-primary': 'linear-gradient(to left,rgb(53, 17, 231),rgb(149, 130, 225))',
       }
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/line-clamp')],
 }
-

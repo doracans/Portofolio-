@@ -1,28 +1,21 @@
-import React from 'react'
+// SkillCard Component
+import React from 'react';
 
-const SkillCard = ({icon, skillName, description, progress }) => {
+const SkillCard = ({ icon, skills, description, image, link }) => {
+  const icons = Array.isArray(icon) ? icon : [icon];
   return (
-    <div className='bg-white rounded-2xl border border-[#fce8d4] p-4'>
-      <div className='flex gap-3'>
-       <div className=' w-10 h-10 flex items-center justify-center bg-gradient-to-b from-[#fdeddd] to-[#ffffff] rounded-[7px]'>{icon}</div>
-
-       <div className='flex-1'>
-        <div className='flex items-center justify-between'>
-            <p className='text-[13px] text-black font-mmedium'>{skillName}</p>
-            <p className='text-xs text-secondary font-medium'>{progress}%</p>
+    <a href={link || '#'} target="_blank" rel="noopener noreferrer" className="block h-full">
+      <div className="p-4 border rounded-lg shadow-md bg-white hover:shadow-lg transition flex flex-col justify-between h-full">
+        {image && <img src={image} alt={skills} className="w-full h-32 object-cover rounded-md mb-2" />}
+        <h3 className="text-lg font-semibold">{skills}</h3>
+        <p className="text-sm text-gray-600">{description}</p>
+        <div className="flex items-center space-x-3 mb-2 mt-2">
+          {icons.map((IconComponent, index) => (
+            <IconComponent key={index} className="w-6 h-6 text-primary" />
+          ))}
         </div>
-
-        <div className='w-full bg-background rounded-md h-[5px] relative mt-2'>
-         <div 
-         className="bg-primary h-[5px] rounded-md"
-         style={{width:`${progress}%`}}>
-         </div>
-        </div>
-       </div>
       </div>
-      <p className="text-xs text-gray-600 text-justify leading-5 mt-2">{description}</p>
-    </div>
-  )
-}
-
-export default SkillCard
+    </a>
+  );
+};
+export default SkillCard;

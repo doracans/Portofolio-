@@ -8,14 +8,18 @@ FaInstagram,
 FaLinkedin,
 } from 'react-icons/fa';
 import {BiLogoJavascript, BiLogoTypescript} from 'react-icons/bi';
-import {SiExpress, SiMongodb, SiMysql, SiFigma,SiPostman,SiSwagger} from 'react-icons/si';
+import {SiExpress, SiMongodb, SiMysql, SiFigma,SiPostman,SiSwagger, SiPhotopea, SiAdobe, SiAxios, SiTypescript, SiPrisma, SiJavascript, SiMongoose, SiGoogleanalytics, SiGoogleadmob, SiCanva} from 'react-icons/si';
 import {
     VscVscode,
-    VscCommentUnresolved,
     VscTerminalPowershell,
 } from 'react-icons/vsc';
-import { FaGitAlt,FaBehance,FaGithub } from 'react-icons/fa6';
+import { FaGitAlt,FaBehance,FaGithub, FaGoogle } from 'react-icons/fa6';
 import { MdGroups3 } from 'react-icons/md';
+import { link } from 'framer-motion/client';
+import { FiFigma } from 'react-icons/fi';
+import { DiAndroid, DiJavascript } from 'react-icons/di';
+import { RiTailwindCssFill, RiTailwindCssLine } from 'react-icons/ri';
+
 
 import PROJECT_IMG_1 from "../assets/images/PROJECT_IMG_1.png";
 import PROJECT_IMG_2 from "../assets/images/PROJECT_IMG_2.png";
@@ -23,6 +27,33 @@ import PROJECT_IMG_3 from "../assets/images/PROJECT_IMG_3.png";
 import PROJECT_IMG_4 from "../assets/images/PROJECT_IMG_4.png";
 import PROJECT_IMG_5 from "../assets/images/PROJECT_IMG_5.png";
 import PROJECT_IMG_6 from "../assets/images/PROJECT_IMG_6.png";
+import PROJECT_IMG_7  from "../assets/images/PROJECT_IMG_7.png";
+import PROJECT_IMG_8  from "../assets/images/PROJECT_IMG_8.png";
+import PROJECT_IMG_9  from "../assets/images/PROJECT_IMG_9.png";
+import PROJECT_IMG_10  from "../assets/images/PROJECT_IMG_10.png";
+import PROJECT_IMG_11  from "../assets/images/PROJECT_IMG_11.png";
+import PROJECT_IMG_12  from "../assets/images/PROJECT_IMG_12.png";
+import PROJECT_IMG_13  from "../assets/images/PROJECT_IMG_13.png";
+import PROJECT_IMG_14  from "../assets/images/PROJECT_IMG_14.png";
+import PROJECT_IMG_15  from "../assets/images/PROJECT_IMG_15.png";
+import PROJECT_IMG_16  from "../assets/images/PROJECT_IMG_16.png";
+import PROJECT_IMG_17  from "../assets/images/PROJECT_IMG_17.png";
+import PROJECT_IMG_18  from "../assets/images/PROJECT_IMG_18.png";
+import PROJECT_IMG_19  from "../assets/images/PROJECT_IMG_19.png";
+import PROJECT_IMG_20  from "../assets/images/PROJECT_IMG_20.png";
+import PROJECT_IMG_21  from "../assets/images/PROJECT_IMG_21.png";
+import PROJECT_IMG_22  from "../assets/images/PROJECT_IMG_22.png";
+import PROJECT_IMG_23  from "../assets/images/PROJECT_IMG_23.png";
+import PROJECT_IMG_24  from "../assets/images/PROJECT_IMG_24.png";
+import PROJECT_IMG_25  from "../assets/images/PROJECT_IMG_25.png";
+import PROJECT_IMG_26  from "../assets/images/PROJECT_IMG_26.png";
+import PROJECT_IMG_27  from "../assets/images/PROJECT_IMG_27.png";
+import PROJECT_IMG_28  from "../assets/images/PROJECT_IMG_28.png"
+import PROJECT_IMG_29  from "../assets/images/PROJECT_IMG_29.png";
+import PROJECT_IMG_30  from "../assets/images/PROJECT_IMG_30.png";
+import PROJECT_IMG_31  from "../assets/images/PROJECT_IMG_31.png";
+import PROJECT_IMG_32  from "../assets/images/PROJECT_IMG_32.png";
+import PROJECT_IMG_33  from "../assets/images/PROJECT_IMG_33.png";
 
 export const MENU_LINKS=[
     {id:"01", label:"Home",offset:-100, to:"hero"},
@@ -33,155 +64,326 @@ export const MENU_LINKS=[
 ];
 
 export const STATS =[
-    {id:"01", count:"10",label:`Years of \nExperience`},
-    {id:"02", count:"12", label:`Certification \nEarned`},
-    {id:"03", count:"43", label:`Projects \nCompleted`},
+    {id:"01", count:"3",label:`Years of \nExperience`},
+    {id:"02", count:"15", label:`Certification \nEarned`},
+    {id:"03", count:"13", label:`Projects \nCompleted`},
     {id:"04", count:"37",label:`Happly \nClients`},
 ];
 
 export const SKILL_TABS =[
-    {id:"01", label:"All", value:"all"},
-    {id:"02", label:"Frontend", value:"frontend"},
-    {id:"03", label:"Backend", value:"backend"},
-    {id:"04", label:"Tools", value:"tools"},
-    {id:"05", label:"Skills", value:"soft-skills"},
+    {id:"01", label:"Programming", value:"programming"},
+    {id:"02", label:"Design", value:"desain"},
+    {id:"03", label:"Skills & Tools", value:"soft-skill"},
+    {id:"04", label:"Certification & Achievement", value:"sertification"},
 ];
 
-export const SKILLS =[
+export const SKILLS = [
     {
         id: "01",
-        icon: FaReact,
-        skills: "React",
-        progress: 95,
-        type: "frontend",
-        description: "Dora lovers part 1"
+        skills: "Parkirkak Apps",
+        image: PROJECT_IMG_1,
+        type: "desain",
+        description: "A parking app designed to help users easily find and book parking spots.",
+        icon: FiFigma,
+        link:"https://www.figma.com/design/PweUc9hrhz8jew7tVpXa2S/Parkir?node-id=74-2&t=klSN2jG8hKfJTGsB-1",
     },
     {
         id: "02",
-        icon: FaHtml5,
-        skills: "HTML",
-        progress: 99,
-        type: "frontend",
-        description: "Dora lovers part 2"
+        skills: "Blues webs",
+        image: PROJECT_IMG_2,
+        type: "desain",
+        description: "A simple website for reserving seats and viewing café menus in catalog-style layout.",
+        icon: FiFigma,
+        link:"https://www.figma.com/design/zWU7YI8ab5l83euxXrJCKr/blues-coffe?node-id=0-1&t=6c3rGhIGtKAo0I8p-1",
     },
     {
         id: "03",
-        icon: FaCss3,
-        skills: "CSS",
-        progress: 65,
-        type: "frontend",
-        description: "Dora lovers part 3"
+        skills: "Jitang product",
+        image: PROJECT_IMG_3,
+        type: "desain",
+        description: "Jitang is a souvenir made from ketapang seeds, showcasing the natural charm of Banyuwangi.",
+        icon: [FiFigma,SiPhotopea, SiAdobe],
+        link:"https://www.behance.net/gallery/208254999/Product-Jitang/modules/1182879041",
     },
     {
         id: "04",
-        icon: BiLogoJavascript,
-        skills: "JavaScript",
-        progress: 88,
-        type: "frontend",
-        description: "Dora lovers part 4"
+        skills: "CarebyMom Apps",
+        image: PROJECT_IMG_4,
+        type: "desain",
+        description: "A baby gear rental app designed to help parents easily find and rent essential items.",
+        icon: FiFigma,
+        link:"https://www.figma.com/design/f4o586QUWZvB2FWEzr2x7z/carebymom?node-id=26-15&t=V5eQmnwLBKzaHL7n-1",
     },
     {
         id: "05",
-        icon: FaNodeJs,
-        skills: "Node",
-        progress: 95,
-        type: "backend",
-        description: "Dora lovers part 5"
+        skills: "Procella webs",
+        image: PROJECT_IMG_5,
+        type: "desain",
+        description: "A website interface for buying furniture, showing available products, prices, and descriptions.",
+        icon: FiFigma,
+        link:"https://www.figma.com/design/xczWJ8CyutIvS6G8CkN7aA/FURNITURE--WEB-PROJECT-LAST?node-id=0-1&t=fIqSzGnHhcxdExby-1",
     },
     {
         id: "06",
-        icon: SiExpress,
-        skills: "Express",
-        progress: 98,
-        type: "backend",
-        description: "Dora lovers part 6"
+        skills: "Finfit Apps",
+        image: PROJECT_IMG_6,
+        type: "desain",
+        description: "An app with an AR feature that helps users find outfits by scanning themselves in-app. ",
+        icon: FiFigma,
+        link:"https://www.figma.com/design/zuMql01lRdeCvERqQWLhNv/FinFit?node-id=0-1&t=6dVs52j42ZOnS0eg-1",
     },
     {
         id: "07",
-        icon: SiMongodb,
-        skills: "MongoDB",
-        progress: 75,
-        type: "backend",
-        description: "Dora lovers part 7"
+        skills: "Procella",
+        image: PROJECT_IMG_7,
+        type: "programming",
+        description: "Frontend of a furniture product website enabling users to browse, select, and securely purchase items online.",
+        icon: [FaReact,DiJavascript, RiTailwindCssFill],
+        link:"https://github.com/doracans/Procellaa",
     },
     {
         id: "08",
-        icon: SiMysql,
-        skills: "SQL",
-        progress: 90,
-        type: "backend",
-        description: "Dora lovers part 8"
+        skills: "RentCar Dashboard ",
+        image: PROJECT_IMG_8,
+        type: "programming",
+        description: "Frontend dashboard for RentCar database focused on managing and monitoring rental car operations.",
+        icon: [ FaReact, DiJavascript, RiTailwindCssFill,SiAxios],
+        link:"https://github.com/doracans/Dashboard-Rent-Car",
     },
     {
         id: "09",
-        icon: FaGitAlt,
-        skills: "Git",
-        progress: 95,
-        type: "backend",
-        description: "Dora lovers part 9"
+        skills: "Portofolio",
+        image: PROJECT_IMG_9,
+        type: "programming",
+        description: "Frontend of a personal portfolio showcasing various completed and presented projects attractively.",
+        icon: [ FaReact, DiJavascript, RiTailwindCssFill],
+        link:"https://github.com/doracans/Portofolio-",
     },
     {
         id: "10",
-        icon: MdGroups3,
-        skills: "Group Projects",
-        progress: 95,
-        type: "skills",
-        description: "Dora lovers part 10"
+        skills: "Caffe management",
+        image: PROJECT_IMG_10,
+        type: "programming",
+        description: "Backend management system for a café including receipt printing and available table ordering feature.",
+        icon: [SiTypescript, SiExpress,SiMysql, SiPrisma],
+        link:"https://github.com/doracans/UKK",
     },
     {
         id: "11",
-        icon: VscTerminalPowershell,
-        skills: "Terminal Powershell",
-        progress: 95,
-        type: "frontend",
-        description: "Dora lovers part 11"
+        skills: "RentCar",
+        image: PROJECT_IMG_11,
+        type: "programming",
+        description: "Backend database management for RentCar dashboard to process, track, and maintain all rental activities.",
+        icon: [SiTypescript, SiExpress,SiMysql, SiPrisma],
+        link:"https://github.com/doracans/Backend-Sewa-Mobil",
     },
     {
         id: "12",
-        icon: SiPostman,
-        skills: "Postman",
-        progress: 95,
-        type: "backend",
-        description: "Dora lovers part 12"
+        skills: "Store",
+        image: PROJECT_IMG_12,
+        type: "programming",
+        description: "Backend store database management using ODM for efficient data organization and retrieval.",
+        icon: [ FaNodeJs,SiMongoose, SiMongodb],
+        link:"https://github.com/doracans/TransaksiMongodb",
     },
     {
         id: "13",
-        icon: VscVscode,
-        skills: "VsCode",
-        progress: 95,
-        type: "tools",
-        description: "Dora lovers part 13"
+        skills: "IPTV Documentation",
+        image: PROJECT_IMG_13,
+        type: "programming",
+        description: "API documentation for an IPTV project designed to streamline integration with frontend systems and developers.",
+        icon: SiSwagger,
+        link:"https://github.com/Blip-Apps/Server_IPTV_Back-Office/tree/feature/swagger-docsV1",
     },
     {
         id: "14",
-        icon: SiFigma,
-        skills: "Figma",
-        progress: 95,
-        type: "tools",
-        description: "Dora lovers part 14"
-    },
+        skills: "Digital Marketing",
+        image: PROJECT_IMG_23,
+        type: "sertification",
+        description: "Badan Nasional Sertifikasi Profesi 2025",
+        icon: [],
+        link:"https://drive.google.com/file/d/1pb9LH3kCPVCj9W4hU6zyYbEjVQTBqZtN/view?usp=sharing",
+
+    }, 
     {
         id: "15",
-        icon: BiLogoTypescript,
-        skills: "TypeScript",
-        progress: 95,
-        type: "backend",
-        description: "Dora lovers part 15"
+        skills: "Awardee Amartha Cendikia Scholarship Batch 3",
+        image: PROJECT_IMG_22,
+        type: "sertification",
+        description: "Amartha Foundation 2024/2025",
+        icon: [],
+        link:"https://drive.google.com/file/d/1ZySaNqAqk8RWRiWzEWRM0-rkJxn_hz5o/view?usp=sharing",
+
     },
     {
         id: "16",
-        icon: SiSwagger,
-        skills: "Swagger",
-        progress: 95,
-        type: "backend",
-        description: "Dora lovers part 16"
+        skills: "Indonesian Language Proficiency Test",
+        image: PROJECT_IMG_24,
+        type: "sertification",
+        description: "Kemendikbud (Ministry of Education and Culture Republic of Indonesia) 2024",
+        icon: [],
+        link:"https://drive.google.com/file/d/1DFTvdTCMJT3kBjG9cIzny-xOM-nPks3K/view?usp=sharing",
+
+    }, 
+  {
+        id: "17",
+        skills: "Information Technology Specialist in Database",
+        image: PROJECT_IMG_25,
+        type: "sertification",
+        description: "Certiport - A Pearson VUE Business 2024",
+        icon: [],
+        link:"https://drive.google.com/file/d/1QVqGNIpiobWIrIeZLYavJwxdZAn_JP1v/view?usp=sharing",
+
     },
+    {
+        id: "18",
+        skills: "Student Wordpress Developer of Teaching Factory Program",
+        image: PROJECT_IMG_21,
+        type: "sertification",
+        description: "PT. Beon Intermedia 2024",
+        icon: [],
+        link:"https://drive.google.com/file/d/1Y2gOqPK5ebBmrZyAsvnyaVl686AIDEf6/view?usp=sharing",
+
+    },
+    {
+        id: "19",
+        skills: "3rd Place Innovative Business Competition",
+        image: PROJECT_IMG_14,
+        type: "sertification",
+        description: "Ulum Islamic University Lamongan 2024",
+        icon: [],
+        link:"https://drive.google.com/file/d/1fYEceKY8QtFbISpcfEl0aDJIZ2d1G23N/view?usp=sharing",
+    },
+    {
+        id: "20",
+        skills: "Best Project National Student Ambassador",
+        image: PROJECT_IMG_15,
+        type: "sertification",
+        description: "DPTN Edu Expo 2024",
+        icon: [],
+        link:"https://drive.google.com/file/d/1FyjaJiwjdJu8DBRvWeylEw43-Od4OpVN/view?usp=sharing",
+    },
+    {
+        id: "21",
+        skills: "2nd Place Moklet Creatif Challange",
+        image: PROJECT_IMG_16,
+        type: "sertification",
+        description: "SMK Telkom Malang 2024",
+        icon: [],
+        link:"https://drive.google.com/file/d/1e0w3ZXrgNZbEebqhZPtXC6gcsUoXkVht/view?usp=sharing",
+    },
+    {
+        id: "22",
+        skills: "3rd Runner Up Business Idea Competition",
+        image: PROJECT_IMG_17,
+        type: "sertification",
+        description: "Islamic University of Kadiri (UNISKA) Kediri 2024",
+        icon: [],
+        link:"https://drive.google.com/file/d/1F4h3k99IzoznO7IVfXKgs2RbKTG6RIuy/view?usp=sharing",
+    },
+    {
+        id: "23",
+        skills: "Favorite champion Business Case Competition",
+        image: PROJECT_IMG_18,
+        type: "sertification",
+        description: "PT. Penerbit Erlangga 2023",
+        icon: [],
+        link:"https://drive.google.com/file/d/1uRmMrOp8srMCoW-ZJ3TtQ_wp1ElCR954/view?usp=sharing",
+
+    },
+    {
+        id: "24",
+        skills: "Semifinalist Business Plan Competition",
+        image: PROJECT_IMG_19,
+        type: "sertification",
+        description: "Bandung Institute of Technology ITB 2023",
+        icon: [],
+        link:"https://drive.google.com/file/d/1x1CFSmbLGgvgW7_s1WCdLCcJbYXBrYd8/view?usp=sharing",
+
+    },
+    {
+        id: "25",
+        skills: "Top 10 Business Plan Competition",
+        image: PROJECT_IMG_20,
+        type: "sertification",
+        description: "Widyagama University Malang 2023",
+        icon: [],
+        link:"https://drive.google.com/file/d/14td3cYCa_qSspFQelNHGBGcFwBbcz0Z3/view?usp=sharing",
+
+    },
+    {
+        id: "26",
+        skills: "Communication & Time Management",
+        image: PROJECT_IMG_26,
+        type: "soft-skill",
+        description: "Able to communicate effectively and manage time efficiently in various work situations.",
+        icon: [], 
+    },
+    {
+        id: "27",
+        skills: "Problem Solving & Critical Thinking",
+        image: PROJECT_IMG_27,
+        type: "soft-skill",
+        description: "Capable of analyzing problems and finding logical solutions effectively and accurately.",
+        icon: [],
+    },
+    {
+        id: "28",
+        skills: "Leadership & Teamwork",
+        image: PROJECT_IMG_28,
+        type: "soft-skill",
+        description: "Able to lead and collaborate harmoniously in teams such as projects and competitions.",
+        icon: [],
+    },
+    {
+        id: "29",
+        skills: "Public Speaking",
+        image: PROJECT_IMG_29,
+        type: "soft-skill",
+        description: "Capable of presenting ideas clearly and engagingly in public or professional presentations.",
+        icon: [],
+    },
+    {
+        id: "30",
+        skills: "Version Control & Tools",
+        image: PROJECT_IMG_30,
+        type: "soft-skill",
+        description: "Experienced in using Git, GitHub, Figma, VSCode, Postman, Swagger, and various collaboration tools daily.",
+        icon: [FaGithub, VscVscode, VscTerminalPowershell, SiPostman, SiSwagger, FaGitAlt],
+        link: "",
+    },
+    {
+        id: "31",
+        skills: "UI/UX Design",
+        image: PROJECT_IMG_31,
+        type: "soft-skill",
+        description: "Skilled in creating wireframes, prototypes, and user-friendly interface designs using Figma and others.",
+        icon: [FiFigma, SiCanva, SiPhotopea],
+    },
+    {
+        id: "32",
+        skills: "Web Programming",
+        image: PROJECT_IMG_32,
+        type: "soft-skill",
+        description: "Capable of developing front-end and back-end websites using HTML, CSS, TypeScript, JavaScript, frameworks.",
+        icon: [FaReact, BiLogoJavascript, BiLogoTypescript, RiTailwindCssFill, FaNodeJs, SiExpress, SiMongodb, SiMysql],
+    },
+    {
+        id: "33",
+        skills: "Digital Marketing",
+        image: PROJECT_IMG_33,
+        type: "soft-skill",
+        description: "Experienced in digital marketing strategies such as SEO, social media content, and data-driven analysis.",
+        icon: [SiGoogleanalytics, FaInstagram,],
+    },
+   
+    
 ];
 
 export const ABOUT_ME ={
-content: `I'm a passionate Frontend Developer with a strong foundation in building responsive and user-friendly web applications. My journey in development started with a deep curiosity for creating intuitive and visually appealing digital experiences. Over time, I've honed my skills in React, TailwindCSS, and modern frontend tools, allowing me to craft seamless and interactive interfaces.
+content: `I'm a Software Engineering graduate and a junior web developer with a strong passion for both frontend and backend development. My journey started through school projects and national competitions, where I developed skills in building responsive, interactive, and accessible web applications. I specialize in React, TailwindCSS, and TypeScript, and also have experience with backend technologies like Node.js and Express. I'm comfortable working with databases, integrating APIs, and using tools such as Git, GitHub, Figma, VSCode, Postman, and Swagger to support end-to-end development.
 
-\nBeyond just coding, I enjoy solving real-world problems through design and technology. Whether it's optimizing UI/UX workflows, enhancing accessibility, or improving performance, I always strive to create applications that are both functional and aesthetically pleasing.Currently, I'm exploring best practices in frontend architecture, component reusability, and state management, aiming to build scalable and maintainable projects. I'm always eager to learn, collaborate, and push the boundaries of frontend development.`,
+\nBeyond technical expertise, I enjoy solving real-world problems through thoughtful design, clean architecture, and scalable code. I’m passionate about designing user flows, wireframes, and interfaces that balance functionality and aesthetics. I’m also familiar with digital marketing strategies like SEO and data-driven content planning. Currently, I’m focused on learning scalable frontend architecture, reusable components, and maintainable fullstack systems. I'm always eager to collaborate, grow, and contribute to impactful tech solutions.`,
 
 socialLinks:[
     {id:"01", label:"Instagram", icon:FaInstagram, link:"https://www.instagram.com/shr.pus/"},
@@ -192,7 +394,6 @@ socialLinks:[
 
 email: "shrvitasaharani@gmail.com",
 phone:"081233076119",
-website:"https://timeprogrammer.com",
 };
 
 export const PROJECTS = [

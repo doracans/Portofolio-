@@ -58,7 +58,7 @@ const ContactMe = () => {
           <div>
             <ContactInfoCard icon={<IoMdMail />} text={ABOUT_ME.email} />
             <ContactInfoCard icon={<IoPhonePortraitOutline />} text={ABOUT_ME.phone} />
-            <ContactInfoCard icon={<MdOutlineWeb />} text={ABOUT_ME.website} />
+            {/* <ContactInfoCard icon={<MdOutlineWeb />} text={ABOUT_ME.website} /> */}
           </div>
 
           <div>
@@ -107,7 +107,7 @@ const ContactMe = () => {
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <p className="text-lg font-medium mb-4">{status}</p>
             <button
-              className="px-4 py-2 bg-blue-500 text-white rounded"
+              className="px-4 py-2 bg-purple-400 text-white rounded"
               onClick={() => setShowPopup(false)}
             >
               OK

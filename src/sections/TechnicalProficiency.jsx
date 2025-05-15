@@ -1,38 +1,34 @@
-import React, { useState } from 'react'
+
+import React, { useState } from 'react';
+import SkillCard from '../components/SkillCard';
+import Tabs from '../components/Tabs';  // Pastikan komponen Tabs sudah tersedia
 import { SKILLS, SKILL_TABS } from '../utils/data';
-import Tabs from '../components/Tabs';
-import SkiilCard from '../components/SkillCard';
 import { motion } from 'framer-motion';
 
-
 const TechnicalProficiency = () => {
-  const [tabData, setTabData] = useState(SKILLS);
-  const [activeTab, setActiveTab] = useState("all");
+  const [tabData, setTabData] = useState([]);
+  const [activeTab, setActiveTab] = useState(SKILL_TABS[0].value);
 
   const handleTabValueChange = (value) => {
-    if (value == "all") {
-      setTabData(SKILLS);
-      setActiveTab("all");
-      return;
-    }
-
     const updatedList = SKILLS.filter((skill) => skill.type === value);
     setTabData(updatedList);
-
     setActiveTab(value);
-  }
+  };
+
+  // Load default data saat komponen pertama kali dirender
+  React.useEffect(() => {
+    handleTabValueChange(SKILL_TABS[0].value);
+  }, []);
 
   return (
     <section id="skills" className="bg-background mt-20">
       <div className="container mx-auto p-10">
-        <div className=" w-full lg:w-[60vw] mx-auto">
-          <h4 className="section-title">
-            TechnicalProficiency
-          </h4>
+        <div className="w-full lg:w-[60vw] mx-auto">
+          <h4 className="section-title">Project Development</h4>
           <p className="text-sm text-center mt-4 leading-6">
-            A versatile developer with hands-on expetise in modern
-            technologies, tools, and frameworks, dedicated to building
-            effiecient, scalable, and user-centric solustions.
+          Possess a diverse set of skills in design and programming 
+          to successfully complete projects, supported by adequate
+          expertise and several relevant certifications.
           </p>
         </div>
 
@@ -41,25 +37,29 @@ const TechnicalProficiency = () => {
           activeTab={activeTab}
           onTabChange={handleTabValueChange}
         />
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 min-h-[430px] '>
+
+        <div className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-4 gap-x-5 gap-y-5 mt-10">
           {tabData.map((skill, index) => (
-            <motion.div key={skill.id}
+            <motion.div
+              key={skill.id}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
             >
-              <SkiilCard
-                icon={<skill.icon className="w-6 h-6 text-primary" />}
-                skillName={skill.skills}
+              <SkillCard
+                icon={skill.icon}
+                skills={skill.skills}
                 description={skill.description}
-                progress={skill.progress}
+                image={skill.image}
+                link={skill.link}
+
               />
             </motion.div>
           ))}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TechnicalProficiency
+export default TechnicalProficiency;

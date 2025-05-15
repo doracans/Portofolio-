@@ -8,7 +8,7 @@ const AboutMe = () => {
       About Me
     </h4>
     <div className='flex flex-col lg:flex-row gap-16 items-start justify-between'>
-      <div className='w-[300px] md:w-[370px] h-[350px] mf:h-[428px] bg-orange-100/50 rounded-3xl mx-auto '>
+      <div className='w-[300px] md:w-[370px] h-[350px] mf:h-[428px] bg-purple-100/50 rounded-3xl mx-auto '>
        <img src={PROFILE_PIC} alt="Profile Pic" className='profile-pic'/>
       </div>
 
