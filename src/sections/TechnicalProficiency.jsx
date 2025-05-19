@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import SkillCard from '../components/SkillCard';
 import Tabs from '../components/Tabs';  // Pastikan komponen Tabs sudah tersedia
