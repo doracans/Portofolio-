@@ -7,18 +7,20 @@ import AboutMe from './sections/AboutMe';
 import MyProjects from './sections/MyProjects';
 import ContactMe from './sections/ContactMe';
 import Footer from './sections/Footer';
+import ExperienceSection from './sections/Experience';
 
-const App =()=>{
+const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Hero/>
-      <TechnicalProficiency/>
-      <AboutMe/>
-      <MyProjects/>
-     <ContactMe/>
-     <Footer/>
-      </div>
+      <Navbar />
+      <Hero />
+      <TechnicalProficiency />
+      <AboutMe />
+      <ExperienceSection />
+      <MyProjects />
+      <ContactMe />
+      <Footer />
+    </div>
   )
 }
 

@@ -191,7 +191,7 @@ export const SKILLS = [
         skills: "IPTV Documentation",
         image: PROJECT_IMG_13,
         type: "programming",
-        description: "API documentation for an IPTV project designed to streamline integration with frontend systems and developers.",
+        description: "API documentation with swagger for an IPTV project designed to streamline integration with frontend systems and developers.",
         icon: SiSwagger,
         link:"https://github.com/Blip-Apps/Server_IPTV_Back-Office/tree/feature/swagger-docsV1",
     },
@@ -399,38 +399,102 @@ phone:"081233076119",
 export const PROJECTS = [
     {
         id:1,
-        title:"Full Stack Notes App using MERN | MongoDB, Express, React JS, Node JS",
-        image: PROJECT_IMG_1,
-        tags:["React", "HTML","CSS"],
+        title:"Aplikasi mobile untuk sewa Kebutuhan Bayi | Desain dan Prototype di Figma ",
+        image: PROJECT_IMG_4,
+        tags:["Figma"],
     },
     {
         id:2,
-        title:"Responsive Portofolio Website using React JS | Portofolio website in React",
-        image: PROJECT_IMG_2,
-        tags:["React", "HTML","CSS"],
+        title:"Website Responsive untuk penjualan furniture kursi| Procella website in React",
+        image: PROJECT_IMG_7,
+        tags:["React","JavaScript","Tailwind CSS"],
     },
     {
         id:3,
-        title:"Full Stack Travel Story App using MERN Stack | MongoDB website in React | MERN Project",
+        title:"Produk makanan khas Banyuwangi | | MERN Project",
         image: PROJECT_IMG_3,
-        tags:["React", "Node.js","Express.js","MongoDB"],
+        tags:["Photopea", "Canva","Adobe", "Figma"],
     },
     {
         id:4,
-        title:"Portofolio website using react JS and Tailwind CSS | Portofolio Website in React",
-        image: PROJECT_IMG_4,
-        tags:["React", "Tailwind CSS"],
+        title:"Aplikasi mobile booking parkir dengan sistem notifikasi waktu bayar | Desain dan Prototype di Figma",
+        image: PROJECT_IMG_1,
+        tags:["Figma"],
     },
     {
         id:5,
         title:"Full Stack polling app using MERN stack | MongoDB, Express, React, Node.js | MERN Project",
-        image: PROJECT_IMG_5,
-        tags:["React", "Node.js","Express.js","MongoDB"],
+        image: PROJECT_IMG_8,
+        tags:["React", "JavaScript", "Tailwind CSS","Axios"],
     },
     {
         id:6,
         title:"Responsive website using react JS & Tailwind CSS",
-        image: PROJECT_IMG_6,
-        tags:["React", "Tailwind CSS"],
+        image: PROJECT_IMG_2,
+        tags:["Figma"],
     },
+     {
+        id:7,
+        title:"Responsive website using react JS & Tailwind CSS",
+        image: PROJECT_IMG_11,
+        tags:["Express","TypeScript","Prisma","MySQL", "Postman"],
+    },
+     {
+        id:8,
+        title:"Responsive website using react JS & Tailwind CSS",
+        image: PROJECT_IMG_12,
+        tags:["Express","JavaSript","Mongodb","Mongoose"],
+    }, {
+        id:9,
+        title:"Responsive website using react JS & Tailwind CSS",
+        image: PROJECT_IMG_10,
+        tags:["Express","TypeScript","Prisma","MySQL","Postman"],
+    }, {
+        id:10,
+        title:"Responsive website using react JS & Tailwind CSS",
+        image: PROJECT_IMG_13,
+        tags:["Swagger"],
+    },
+];
+
+export const EXPERIENCES = [
+    {
+    id: 1,
+    role: "Backend Developer Intern",
+    company: "PT. Semua Aplikasi Indonesia",
+    location: "Onsite",
+    duration: "Nov 2024 - May 2025",
+    description: [
+      "Membuat BackEnd CRUD menggunakan mongoose dan Mongodb.",
+      "Menyelesaikan study case pembuatan FrontEnd project dashboard beserta Integrasi API.",
+      "Mengerjakan project perusahaan berupa pembuatan rest APi dari IPTV menggunakan swagger beserta authentikasinya."
+    ],
+    technologies: ["React", "JavaScript", "Tailwind CSS", "REST API"],
+  },
+//   {
+//     id: 2,
+//     role: "Digital Marketing Bootcamp",
+//     company: "Telkom DigiUp",
+//     location: "Online",
+//     duration: "Nov 2024 - Dec 2024",
+//     description: [
+//       "Developed responsive web pages using React and Tailwind CSS.",
+//       "Integrated APIs and optimized components for performance.",
+//       "Worked closely with backend team to ensure seamless data flow."
+//     ],
+//     technologies: ["React", "JavaScript", "Tailwind CSS", "REST API"],
+//   },
+  {
+    id: 3,
+    role: "Wordpress Developer Bootcamp",
+    company: "Jagoan Hosting",
+    location: "Onsite",
+    duration: "Jan - Feb 2024",
+    description: [
+      "Developed responsive web pages using React and Tailwind CSS.",
+      "Integrated APIs and optimized components for performance.",
+      "Worked closely with backend team to ensure seamless data flow."
+    ],
+    technologies: ["React", "JavaScript", "Tailwind CSS", "REST API"],
+  },
 ];
