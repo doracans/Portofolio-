@@ -2,5 +2,5 @@
     "git-auto-commit.enable": true,
     "git-auto-commit.message": "auto: update",
     "git-auto-commit.push": true,
-    "git-auto-commit.interval": 300 // dalam detik, 300 = 5 menit
+    "git-auto-commit.interval": 10 // per secconds
   }

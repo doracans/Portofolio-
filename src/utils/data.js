@@ -392,70 +392,72 @@ socialLinks:[
     {id:"04", label:"Behance", icon:FaBehance, link:"https://www.behance.net/shrvitasaharani"},
 ],
 
-email: "shrvitasaharani@gmail.com",
-phone:"081233076119",
 };
+
 
 export const PROJECTS = [
     {
-        id:1,
-        title:"Aplikasi mobile untuk sewa Kebutuhan Bayi | Desain dan Prototype di Figma ",
+        id: 1,
+        title: "Mobile App for Baby Gear Rental | Complete UI/UX Design and Prototyping in Figma",
         image: PROJECT_IMG_4,
-        tags:["Figma"],
+        tags: ["Figma"],
     },
     {
-        id:2,
-        title:"Website Responsive untuk penjualan furniture kursi| Procella website in React",
+        id: 2,
+        title: "Responsive Furniture E-Commerce Website | Developed Using React, JavaScript, and Tailwind CSS",
         image: PROJECT_IMG_7,
-        tags:["React","JavaScript","Tailwind CSS"],
+        tags: ["React", "JavaScript", "Tailwind CSS"],
     },
     {
-        id:3,
-        title:"Produk makanan khas Banyuwangi | | MERN Project",
+        id: 3,
+        title: "Traditional Snack Branding from Banyuwangi | Mockup Design, Packaging, and Product Identity",
         image: PROJECT_IMG_3,
-        tags:["Photopea", "Canva","Adobe", "Figma"],
+        tags: ["Photopea", "Canva", "Adobe", "Figma"],
     },
     {
-        id:4,
-        title:"Aplikasi mobile booking parkir dengan sistem notifikasi waktu bayar | Desain dan Prototype di Figma",
+        id: 4,
+        title: "Mobile Parking Reservation App with Payment Reminder Notification | Designed and Prototyped in Figma",
         image: PROJECT_IMG_1,
-        tags:["Figma"],
+        tags: ["Figma"],
     },
     {
-        id:5,
-        title:"Full Stack polling app using MERN stack | MongoDB, Express, React, Node.js | MERN Project",
+        id: 5,
+        title: "RentCar Dashboard Frontend Development | Integrated with Backend API Using React and Axios",
         image: PROJECT_IMG_8,
-        tags:["React", "JavaScript", "Tailwind CSS","Axios"],
+        tags: ["React", "JavaScript", "Tailwind CSS", "Axios"],
     },
     {
-        id:6,
-        title:"Responsive website using react JS & Tailwind CSS",
+        id: 6,
+        title: "Cafe Website for Table Reservation and Menu Display | Full UI/UX Design and Figma Prototype",
         image: PROJECT_IMG_2,
-        tags:["Figma"],
+        tags: ["Figma"],
     },
-     {
-        id:7,
-        title:"Responsive website using react JS & Tailwind CSS",
+    {
+        id: 7,
+        title: "Backend Development for RentCar Admin Dashboard | Built with TypeScript, Prisma ORM, and MySQL",
         image: PROJECT_IMG_11,
-        tags:["Express","TypeScript","Prisma","MySQL", "Postman"],
+        tags: ["Express", "TypeScript", "Prisma", "MySQL", "Postman"],
     },
-     {
-        id:8,
-        title:"Responsive website using react JS & Tailwind CSS",
+    {
+        id: 8,
+        title: "Backend System for Online Store Management | MongoDB Atlas and Mongoose ODM Integration",
         image: PROJECT_IMG_12,
-        tags:["Express","JavaSript","Mongodb","Mongoose"],
-    }, {
-        id:9,
-        title:"Responsive website using react JS & Tailwind CSS",
+        tags: ["Express", "JavaScript", "MongoDB", "Mongoose", "Rest API"],
+    },
+    {
+        id: 9,
+        title: "Backend API for Cafe Management System | TypeScript, Prisma ORM, MySQL, and RESTful Services",
         image: PROJECT_IMG_10,
-        tags:["Express","TypeScript","Prisma","MySQL","Postman"],
-    }, {
-        id:10,
-        title:"Responsive website using react JS & Tailwind CSS",
+        tags: ["Express", "TypeScript", "Prisma", "MySQL", "Rest API"],
+    },
+    {
+        id: 10,
+        title: "IPTV API Documentation with Authentication System | Created Using Swagger",
         image: PROJECT_IMG_13,
-        tags:["Swagger"],
+        tags: ["Swagger"],
     },
 ];
+
 
 export const EXPERIENCES = [
     {
