@@ -37,7 +37,7 @@ const MyProjects = () => {
         </div> */}
         <div className='relative'>
           <div className='overflow-hidden' ref={emblaRef}>
-            <div className='flex pt-14 pb-8'>
+            <div className='flex pt-8 pb-8'>
               {PROJECTS.map((project) => (
                 <div
                   key={project.id}
