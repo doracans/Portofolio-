@@ -35,7 +35,7 @@ import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className="text-purple-500 text-center py-8">
+    <footer className="text-purple-800 text-center py-8">
       <div className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Pusfita</h2>
         <div className="flex justify-center items-center gap-3 text-sm">

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="bg-white mt-13">
+    <section id="experience" className="mt-13">
       <div className="container mx-auto p-10">
         <div className="w-full lg:w-[60vw] mx-auto text-center">
           <h4 className="section-title">Experience</h4>

@@ -43,7 +43,7 @@ const ContactMe = () => {
 
   return (
     <section id="contact">
-      <div className='container mx-auto p-10'>
+      <div className='container mx-auto p-10 '>
         <div className='w-full lg:w-[60vw] mx-auto'>
           <h4 className='section-title'>Contact Me</h4>
           <p className='text-sm text-center mt-4 leading-6'>

@@ -49,7 +49,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="w-[300px] md:w-[370px] h-[428px] bg-orange-100/50 rounded-3xl relative order-1 lg:order-2">
+        <div className="w-[300px] md:w-[370px] h-[428px] bg-purple-200/50 rounded-3xl relative order-1 lg:order-2">
           <img src={PROFILE_PICTURE} alt="Profile Picture" className='profile-pic' width={450} />
           <img src={ICON_1} alt="Icon 1" className='icon-img -left-10 bottom-20 rotate-[1.75deg]' />
           <img src={ICON_2} alt="Icon 2" className='icon-img left-5 md:left-10 -bottom-2 rotate-[2.75deg]' />

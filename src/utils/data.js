@@ -473,19 +473,19 @@ export const EXPERIENCES = [
     ],
     technologies: ["React", "JavaScript", "Tailwind CSS", "REST API"],
   },
-//   {
-//     id: 2,
-//     role: "Digital Marketing Bootcamp",
-//     company: "Telkom DigiUp",
-//     location: "Online",
-//     duration: "Nov 2024 - Dec 2024",
-//     description: [
-//       "Developed responsive web pages using React and Tailwind CSS.",
-//       "Integrated APIs and optimized components for performance.",
-//       "Worked closely with backend team to ensure seamless data flow."
-//     ],
-//     technologies: ["React", "JavaScript", "Tailwind CSS", "REST API"],
-//   },
+  {
+    id: 2,
+    role: "Digital Marketing Bootcamp",
+    company: "Telkom DigiUp",
+    location: "Online",
+    duration: "Nov 2024 - Dec 2024",
+    description: [
+      "Developed responsive web pages using React and Tailwind CSS.",
+      "Integrated APIs and optimized components for performance.",
+      "Worked closely with backend team to ensure seamless data flow."
+    ],
+    technologies: ["React", "JavaScript", "Tailwind CSS", "REST API"],
+  },
   {
     id: 3,
     role: "Wordpress Developer Bootcamp",
