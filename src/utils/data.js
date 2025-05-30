@@ -460,18 +460,18 @@ export const PROJECTS = [
 
 
 export const EXPERIENCES = [
-    {
+  {
     id: 1,
     role: "Backend Developer Intern",
     company: "PT. Semua Aplikasi Indonesia",
     location: "Onsite",
     duration: "Nov 2024 - May 2025",
     description: [
-      "Membuat BackEnd CRUD menggunakan mongoose dan Mongodb.",
-      "Menyelesaikan study case pembuatan FrontEnd project dashboard beserta Integrasi API.",
-      "Mengerjakan project perusahaan berupa pembuatan rest APi dari IPTV menggunakan swagger beserta authentikasinya."
+      "Developed CRUD features using Mongoose and MongoDB.",
+      "Built a dashboard with React integrated with REST APIs.",
+      "Created REST APIs for IPTV services, including authentication and API documentation using Swagger."
     ],
-    technologies: ["React", "JavaScript", "Tailwind CSS", "REST API"],
+    technologies: ["MongoDB", "Mongoose", "Swagger", "REST API", "JavaScript", "React"],
   },
   {
     id: 2,
@@ -480,23 +480,24 @@ export const EXPERIENCES = [
     location: "Online",
     duration: "Nov 2024 - Dec 2024",
     description: [
-      "Developed responsive web pages using React and Tailwind CSS.",
-      "Integrated APIs and optimized components for performance.",
-      "Worked closely with backend team to ensure seamless data flow."
+      "Studied digital marketing strategies through case studies and hands-on practice, including Google optimization.",
+      "Designed advertisements using both soft-selling and hard-selling approaches.",
+      "Planned advertising timelines and budgets, and defined measurable targets using KPIs."
     ],
     technologies: ["React", "JavaScript", "Tailwind CSS", "REST API"],
   },
   {
     id: 3,
-    role: "Wordpress Developer Bootcamp",
+    role: "WordPress Developer Bootcamp",
     company: "Jagoan Hosting",
     location: "Onsite",
     duration: "Jan - Feb 2024",
     description: [
-      "Developed responsive web pages using React and Tailwind CSS.",
-      "Integrated APIs and optimized components for performance.",
-      "Worked closely with backend team to ensure seamless data flow."
+      "Learned the fundamentals of website development using WordPress.",
+      "Created responsive and user-friendly website layouts using custom themes.",
+      "Understood the process of uploading a website to a personal domain using cPanel."
     ],
-    technologies: ["React", "JavaScript", "Tailwind CSS", "REST API"],
+    technologies: ["WordPress", "Elementor", "HTML", "CSS", "JavaScript"],
   },
 ];
+
