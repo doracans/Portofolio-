@@ -15,7 +15,7 @@ import {
 } from 'react-icons/vsc';
 import { FaGitAlt,FaBehance,FaGithub, FaGoogle } from 'react-icons/fa6';
 import { MdGroups3 } from 'react-icons/md';
-import { link } from 'framer-motion/client';
+import { image, link } from 'framer-motion/client';
 import { FiFigma } from 'react-icons/fi';
 import { DiAndroid, DiJavascript } from 'react-icons/di';
 import { RiTailwindCssFill, RiTailwindCssLine } from 'react-icons/ri';
@@ -54,6 +54,10 @@ import PROJECT_IMG_30  from "../assets/images/PROJECT_IMG_30.png";
 import PROJECT_IMG_31  from "../assets/images/PROJECT_IMG_31.png";
 import PROJECT_IMG_32  from "../assets/images/PROJECT_IMG_32.png";
 import PROJECT_IMG_33  from "../assets/images/PROJECT_IMG_33.png";
+
+import Company_logo_1 from "../assets/images/company_logo_1.png";
+import Company_logo_2 from "../assets/images/company_logo_2.png";
+import Company_logo_3 from "../assets/images/company_logo_3.png";
 
 export const MENU_LINKS=[
     {id:"01", label:"Home",offset:-100, to:"hero"},
@@ -462,6 +466,7 @@ export const PROJECTS = [
 export const EXPERIENCES = [
   {
     id: 1,
+    image: Company_logo_1,
     role: "Backend Developer Intern",
     company: "PT. Semua Aplikasi Indonesia",
     location: "Onsite",
@@ -475,6 +480,7 @@ export const EXPERIENCES = [
   },
   {
     id: 2,
+    image: Company_logo_2,
     role: "Digital Marketing Bootcamp",
     company: "Telkom DigiUp",
     location: "Online",
@@ -488,6 +494,7 @@ export const EXPERIENCES = [
   },
   {
     id: 3,
+    image: Company_logo_3,
     role: "WordPress Developer Bootcamp",
     company: "Jagoan Hosting",
     location: "Onsite",

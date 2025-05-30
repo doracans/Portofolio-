@@ -75,6 +75,7 @@ const ExperienceSection = () => {
               transition={{ duration: 0.4, delay: index * 0.1 }}
             >
               <ExperienceCard
+                image={exp.image}
                 role={exp.role}
                 company={exp.company}
                 location={exp.location}
@@ -82,6 +83,7 @@ const ExperienceSection = () => {
                 description={exp.description}
                 technologies={exp.technologies}
               />
+
             </motion.div>
           ))}
         </div>
