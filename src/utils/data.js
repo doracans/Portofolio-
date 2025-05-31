@@ -495,7 +495,7 @@ export const EXPERIENCES = [
   {
     id: 3,
     image: Company_logo_3,
-    role: "WordPress Developer Bootcamp",
+    role: "WordPress Developer TeFa",
     company: "Jagoan Hosting",
     location: "Onsite",
     duration: "Jan - Feb 2024",

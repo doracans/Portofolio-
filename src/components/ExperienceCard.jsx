@@ -41,7 +41,7 @@ const ExperienceCard = ({ role, company, location, duration, description, techno
             <img
               src={image}
               alt={company}
-              className="w-6 h-6 object-contain"
+              className="w-10 h-7 object-contain"
             />
           )}
           <p className="text-sm text-gray-600">
