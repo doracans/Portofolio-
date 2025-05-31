@@ -34,7 +34,7 @@ const Hero = () => {
           </p>
           <div className="flex justify-center lg:justify-start gap-4 md:gap-8 mt-6">
             <a
-              href="#skills"
+              href="#recent"
               className="flex-1 md:flex-none action-btn-outline btn-scale-anim flex items-center justify-center"
             >
               View My Work
