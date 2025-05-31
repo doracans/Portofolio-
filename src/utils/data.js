@@ -8,7 +8,7 @@ FaInstagram,
 FaLinkedin,
 } from 'react-icons/fa';
 import {BiLogoJavascript, BiLogoTypescript} from 'react-icons/bi';
-import {SiExpress, SiMongodb, SiMysql, SiFigma,SiPostman,SiSwagger, SiPhotopea, SiAdobe, SiAxios, SiTypescript, SiPrisma, SiJavascript, SiMongoose, SiGoogleanalytics, SiGoogleadmob, SiCanva} from 'react-icons/si';
+import {SiExpress, SiMongodb, SiMysql, SiFigma,SiPostman,SiSwagger, SiPhotopea, SiAdobe, SiAxios, SiTypescript, SiPrisma, SiJavascript, SiMongoose, SiGoogleanalytics, SiGoogleadmob, SiCanva, SiReact, SiWordpress, SiElementor, SiCss3, SiHtcvive, SiHtml5} from 'react-icons/si';
 import {
     VscVscode,
     VscTerminalPowershell,
@@ -476,35 +476,41 @@ export const EXPERIENCES = [
       "Built a dashboard with React integrated with REST APIs.",
       "Created REST APIs for IPTV services, including authentication and API documentation using Swagger."
     ],
-    technologies: ["MongoDB", "Mongoose", "Swagger", "REST API", "JavaScript", "React"],
-  },
-  {
-    id: 2,
-    image: Company_logo_2,
-    role: "Digital Marketing Bootcamp",
-    company: "Telkom DigiUp",
-    location: "Online",
-    duration: "Nov 2024 - Dec 2024",
-    description: [
-      "Studied digital marketing strategies through case studies and hands-on practice, including Google optimization.",
-      "Designed advertisements using both soft-selling and hard-selling approaches.",
-      "Planned advertising timelines and budgets, and defined measurable targets using KPIs."
-    ],
-    technologies: ["React", "JavaScript", "Tailwind CSS", "REST API"],
-  },
-  {
-    id: 3,
-    image: Company_logo_3,
-    role: "WordPress Developer TeFa",
-    company: "Jagoan Hosting",
-    location: "Onsite",
-    duration: "Jan - Feb 2024",
-    description: [
-      "Learned the fundamentals of website development using WordPress.",
-      "Created responsive and user-friendly website layouts using custom themes.",
-      "Understood the process of uploading a website to a personal domain using cPanel."
-    ],
-    technologies: ["WordPress", "Elementor", "HTML", "CSS", "JavaScript"],
-  },
+    technologies: [
+  { icon: SiMongodb, color: "#47A248" },
+  { icon: SiMongoose, color: "#800000" },
+  { icon: SiSwagger, color: "#85EA2D" },
+  { icon: SiJavascript, color: "#F7DF1E" },
+  { icon: SiReact, color: "#61DAFB" },
+],
+},
+//   {
+//     id: 2,
+//     image: Company_logo_2,
+//     role: "Digital Marketing Bootcamp",
+//     company: "Telkom DigiUp",
+//     location: "Online",
+//     duration: "Nov 2024 - Dec 2024",
+//     description: [
+//       "Studied digital marketing strategies through case studies and hands-on practice, including Google optimization.",
+//       "Designed advertisements using both soft-selling and hard-selling approaches.",
+//       "Planned advertising timelines and budgets, and defined measurable targets using KPIs."
+//     ],
+//     technologies: [SiGoogleanalytics, SiGoogleadmob, SiCanva, SiPhotopea],
+// },
+//   {
+//     id: 3,
+//     image: Company_logo_3,
+//     role: "WordPress Developer TeFa",
+//     company: "Jagoan Hosting",
+//     location: "Onsite",
+//     duration: "Jan - Feb 2024",
+//     description: [
+//       "Learned the fundamentals of website development using WordPress.",
+//       "Created responsive and user-friendly website layouts using custom themes.",
+//       "Understood the process of uploading a website to a personal domain using cPanel."
+//     ],
+//     technologies: [SiWordpress, SiElementor, SiHtml5, SiCss3, SiJavascript],
+// },
 ];
 

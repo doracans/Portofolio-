@@ -59,10 +59,10 @@ const ExperienceCard = ({ role, company, location, duration, description, techno
       </div>
 
       {technologies && (
-        <div className="mt-4 flex flex-wrap gap-2">
-          {technologies.map((tech, index) => (
-            <span key={index} className="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">
-              {tech}
+        <div className="mt-4 flex flex-wrap gap-3">
+          {technologies.map(({ icon: TechIcon, color }, index) => (
+            <span key={index} className="text-2xl">
+              <TechIcon style={{ color }} />
             </span>
           ))}
         </div>
