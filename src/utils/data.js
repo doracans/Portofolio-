@@ -62,10 +62,10 @@ import Company_logo_3 from "../assets/images/company_logo_3.png";
 
 export const MENU_LINKS = [
     { id: "01", label: "Home", offset: -100, to: "hero" },
-    { id: "02", label: "Skills", offset: -80, to: "skills" },
-    { id: "03", label: "About Me", offset: -80, to: "about" },
-    { id: "04", label: "Projects", offset: -80, to: "projects" },
-    { id: "05", label: "Contact", offset: -80, to: "contact" },
+    { id: "02", label: "Project", offset: -80, to: "project" },
+    { id: "03", label: "About Me", offset: -60, to: "about" },
+    { id: "04", label: "Experience", offset: -60, to: "experience" },
+    { id: "05", label: "Recent", offset: -50, to: "recent" },
 ];
 
 export const STATS = [

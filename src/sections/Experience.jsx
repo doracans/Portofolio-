@@ -62,8 +62,8 @@ const ExperienceSection = () => {
         <div className="w-full text-center">
           <h4 className="section-title">Experience</h4>
           <p className="text-sm mt-4 leading-6">
-            {/* My journey includes hands-on experience in backend APIs, UI/UX design, React frontend, WordPress development, and digital strategy. */}
-             My journey includes hands-on experience in backend APIs, UI/UX design, React frontend development, WordPress website building, and executing digital strategies across real-world projects.
+            My journey includes hands-on experience in backend APIs, UI/UX design, React frontend, WordPress development, and digital strategy.
+             {/* My journey includes hands-on experience in backend APIs, UI/UX design, React frontend development, WordPress website building, and executing digital strategies across real-world projects. */}
 
           </p>
         </div>
