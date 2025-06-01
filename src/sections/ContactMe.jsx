@@ -111,7 +111,7 @@ const ContactMe = () => {
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <p className="text-lg font-medium mb-4">{status}</p>
             <button
-              className="px-4 py-2 bg-purple-400 text-white rounded"
+              className="px-4 py-2 bg-purple-500 text-white rounded"
               onClick={() => setShowPopup(false)}
             >
               OK

@@ -13,8 +13,15 @@ const SkillCard = ({ icon, skills, description, image, link }) => {
             <IconComponent key={index} className="w-6 h-6 text-primary" />
           ))}
         </div>
+        {/* Show more */}
+        {link && (
+          <span className="text-sm text-blue-600 font-medium mt-auto underline underline-offset-2">
+            Show more ↗
+          </span>
+        )}
       </div>
     </a>
   );
 };
+
 export default SkillCard;
