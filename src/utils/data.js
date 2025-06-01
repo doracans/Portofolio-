@@ -58,9 +58,9 @@ import PROJECT_IMG_33 from "../assets/images/PROJECT_IMG_33.png";
 import PROJECT_IMG_34 from "../assets/images/PROJECT_IMG_34.png";
 import PROJECT_IMG_35 from "../assets/images/PROJECT_IMG_35.png";
 
-import Company_logo_1 from "../assets/images/company_logo_1.png";
-import Company_logo_2 from "../assets/images/company_logo_2.png";
-import Company_logo_3 from "../assets/images/company_logo_3.png";
+import company_logo_1 from "../assets/images/company_logo_1.png";
+import company_logo_2 from "../assets/images/company_logo_2.png";
+import company_logo_3 from "../assets/images/company_logo_3.png";
 
 export const MENU_LINKS = [
     { id: "01", label: "Home", offset: -100, to: "hero" },
@@ -486,7 +486,7 @@ export const PROJECTS = [
 export const EXPERIENCES = [
     {
         id: 1,
-        image: Company_logo_1,
+        image: company_logo_1,
         role: "Backend Developer Intern",
         company: "PT. Semua Aplikasi Indonesia",
         location: "Onsite",
@@ -510,7 +510,7 @@ export const EXPERIENCES = [
     },
     {
         id: 2,
-        image: Company_logo_2,
+        image: company_logo_2,
         role: "Digital Marketing Bootcamp",
         company: "Telkom DigiUp",
         location: "Online",
@@ -529,7 +529,7 @@ export const EXPERIENCES = [
     },
     {
         id: 3,
-        image: Company_logo_3,
+        image: company_logo_3,
         role: "WordPress Developer TeFa",
         company: "Jagoan Hosting",
         location: "Onsite",
