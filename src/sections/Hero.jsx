@@ -7,6 +7,7 @@ import ICON_2 from "../assets/images/icon_2.png";
 import ICON_3 from "../assets/images/icon_3.png";
 import ICON_4 from "../assets/images/icon_4.png";
 import { STATS } from '../utils/data';
+import { Link } from 'react-scroll';
 
 const Hero = () => {
   return (
@@ -29,15 +30,18 @@ const Hero = () => {
             Building Scalable & User Centric Web Apps
           </h1>
           <p className="w-full lg:w-[500px] text-sm lg:text-base mt-4">
-          Junior Web Developer passionate about building responsive and dynamic websites using React, Node.js, TailwindCSS, and database management.
+            Junior Web Developer passionate about building responsive and dynamic websites using React, Node.js, TailwindCSS, and database management.
           </p>
           <div className="flex justify-center lg:justify-start gap-4 md:gap-8 mt-6">
-            <a
-              href="#recent"
+            <Link
+              to="recent"
+              smooth
+              spy
+              offset={-60}
               className="flex-1 md:flex-none action-btn-outline btn-scale-anim flex items-center justify-center"
             >
               View My Work
-            </a>
+            </Link>
             <a
               href="https://drive.google.com/file/d/1k8lggk7oO_TrbbA2kyTlrSIGNn-jJyVW/view?usp=drive_link"
               target="_blank"
