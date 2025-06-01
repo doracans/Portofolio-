@@ -55,6 +55,8 @@ import PROJECT_IMG_30 from "../assets/images/PROJECT_IMG_30.png";
 import PROJECT_IMG_31 from "../assets/images/PROJECT_IMG_31.png";
 import PROJECT_IMG_32 from "../assets/images/PROJECT_IMG_32.png";
 import PROJECT_IMG_33 from "../assets/images/PROJECT_IMG_33.png";
+import PROJECT_IMG_34 from "../assets/images/PROJECT_IMG_34.png";
+import PROJECT_IMG_35 from "../assets/images/PROJECT_IMG_35.png";
 
 import Company_logo_1 from "../assets/images/company_logo_1.png";
 import Company_logo_2 from "../assets/images/company_logo_2.png";
@@ -380,6 +382,24 @@ export const SKILLS = [
         description: "Experienced in digital marketing strategies such as SEO, social media content, and data-driven analysis.",
         icon: [SiGoogleanalytics, FaInstagram,],
     },
+    {
+        id: "34",
+        skills: "NetStream brochure",
+        image: PROJECT_IMG_34,
+        type: "desain",
+        description: "Promotional brochure for NetStream, highlighting internet service packages and key features.",
+        icon: [FiFigma, SiCanva],
+        link: "https://www.canva.com/design/DAGpFuSXEwk/3SV0Wh5V7ee3cRbyeKwZcA/edit?utm_content=DAGpFuSXEwk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    },
+    {
+        id: "35",
+        skills: "Jeras Product",
+        image: PROJECT_IMG_35,
+        type: "desain",
+        description: "Instagram designs for Jeras using soft and hard selling to attract buyers.",
+        icon: [SiCanva],
+        link: "https://www.canva.com/design/DAGYTW2f3Ik/x-EMBixP1UZswjitpJk4Og/edit?utm_content=DAGYTW2f3Ik&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    },
 
 
 ];
@@ -414,15 +434,15 @@ export const PROJECTS = [
     },
     {
         id: 3,
-        title: "Traditional Snack Branding from Banyuwangi | Mockup Design, Packaging, and Product Identity",
-        image: PROJECT_IMG_3,
-        tags: ["Photopea", "Canva", "Adobe", "Figma"],
-    },
-    {
-        id: 4,
         title: "Mobile Parking Reservation App with Payment Reminder Notification | Designed and Prototyped in Figma",
         image: PROJECT_IMG_1,
         tags: ["Figma"],
+    },
+    {
+        id: 4,
+        title: "Traditional Snack Branding from Banyuwangi | Mockup Design, Packaging, and Product Identity",
+        image: PROJECT_IMG_3,
+        tags: ["Photopea", "Canva", "Adobe", "Figma"],
     },
     {
         id: 5,
@@ -505,7 +525,7 @@ export const EXPERIENCES = [
             { icon: SiInstagram, color: "#E1306C" },
             { icon: SiGoogle, color: "#4285F4" },
             { icon: FaRegFileExcel, color: "#217346" },
-            ],
+        ],
     },
     {
         id: 3,
@@ -520,11 +540,11 @@ export const EXPERIENCES = [
             "Understood the process of uploading a website to a personal domain using cPanel."
         ],
         technologies: [
-            { icon: SiWordpress, color: "#21759B" },    
-            { icon: SiCpanel, color: "#FF6C2C" },       
-            { icon: SiFigma, color: "#F24E1E" },        
-            { icon: SiHtml5, color: "#E34F26" },       
-            { icon: SiCss3, color: "#1572B6" },        
+            { icon: SiWordpress, color: "#21759B" },
+            { icon: SiCpanel, color: "#FF6C2C" },
+            { icon: SiFigma, color: "#F24E1E" },
+            { icon: SiHtml5, color: "#E34F26" },
+            { icon: SiCss3, color: "#1572B6" },
         ],
     },
 ];
