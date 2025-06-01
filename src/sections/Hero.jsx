@@ -1,4 +1,3 @@
-// Desc: Home page hero section
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import StatInfoCard from '../components/StatInfoCard';

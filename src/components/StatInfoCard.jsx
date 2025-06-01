@@ -1,4 +1,3 @@
-// StatInfoCard Component
 import React from 'react';
 
 const StatInfoCard = ({ count, label }) => {

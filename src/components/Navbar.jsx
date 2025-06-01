@@ -1,4 +1,3 @@
-// Navbar Component
 import React, { useEffect, useState } from 'react';
 import { MENU_LINKS } from '../utils/data';
 import LOGO from "../assets/images/logo.png";

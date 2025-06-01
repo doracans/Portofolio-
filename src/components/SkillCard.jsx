@@ -1,4 +1,3 @@
-// SkillCard Component
 import React from 'react';
 
 const SkillCard = ({ icon, skills, description, image, link }) => {

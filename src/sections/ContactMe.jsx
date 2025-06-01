@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import ilustration from '../assets/images/ilustration.png';
-import ilustration3 from '../assets/images/ilustration3.png';
 
 
 const ContactMe = () => {

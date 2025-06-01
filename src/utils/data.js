@@ -199,7 +199,7 @@ export const SKILLS = [
         type: "programming",
         description: "API documentation with swagger for an IPTV project designed to streamline integration with frontend systems and developers.",
         icon: SiSwagger,
-        link: "https://github.com/Blip-Apps/Server_IPTV_Back-Office/tree/feature/swagger-docsV1",
+        link: "https://github.com/doracans/BE-IPTV-SEVER5",
     },
     {
         id: "14",

@@ -1,4 +1,3 @@
-// ProjectCard Component
 import React from 'react';
 
 const ProjectCard = ({ imgUrl, title, tags }) => {
