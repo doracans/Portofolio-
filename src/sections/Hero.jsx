@@ -43,7 +43,7 @@ const Hero = () => {
               View My Work
             </Link>
             <a
-              href="https://drive.google.com/file/d/1k8lggk7oO_TrbbA2kyTlrSIGNn-jJyVW/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1ybqLawpXhGJOA1Yl9pyKPNUhZZ0ESOMo/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 md:flex-none action-btn btn-scale-anim flex items-center justify-center"
