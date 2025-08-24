@@ -9,7 +9,7 @@ import {
     FaRegFileExcel,
 } from 'react-icons/fa';
 import { BiLogoJavascript, BiLogoTypescript, BiSkipNextCircle } from 'react-icons/bi';
-import { SiExpress, SiMongodb, SiMysql, SiFigma, SiPostman, SiSwagger, SiPhotopea, SiAdobe, SiAxios, SiTypescript, SiPrisma, SiJavascript, SiMongoose, SiGoogleanalytics, SiGoogleadmob, SiCanva, SiReact, SiWordpress, SiElementor, SiCss3, SiHtcvive, SiHtml5, SiCpanel, SiInstagram, SiGooglemaps, SiNodedotjs, SiGoogle } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiMysql, SiFigma, SiPostman, SiSwagger, SiPhotopea, SiAdobe, SiAxios, SiTypescript, SiPrisma, SiJavascript, SiMongoose, SiGoogleanalytics, SiGoogleadmob, SiCanva, SiReact, SiWordpress, SiElementor, SiCss3, SiHtcvive, SiHtml5, SiCpanel, SiInstagram, SiGooglemaps, SiNodedotjs, SiGoogle, SiAdobeillustrator, SiAdobephotoshop } from 'react-icons/si';
 import {
     VscVscode,
     VscTerminalPowershell,
@@ -57,6 +57,11 @@ import PROJECT_IMG_32 from "../assets/images/PROJECT_IMG_32.png";
 import PROJECT_IMG_33 from "../assets/images/PROJECT_IMG_33.png";
 import PROJECT_IMG_34 from "../assets/images/PROJECT_IMG_34.png";
 import PROJECT_IMG_35 from "../assets/images/PROJECT_IMG_35.png";
+import PROJECT_IMG_36 from "../assets/images/PROJECT_IMG_36.png";
+import PROJECT_IMG_37 from "../assets/images/PROJECT_IMG_37.png";
+import PROJECT_IMG_38 from "../assets/images/PROJECT_IMG_38.png";
+import PROJECT_IMG_39 from "../assets/images/PROJECT_IMG_39.png";
+import PROJECT_IMG_40 from "../assets/images/PROJECT_IMG_40.png";
 
 import logo_1 from "../assets/images/logo_1.png";
 import logo_2 from "../assets/images/logo_2.png";
@@ -140,6 +145,15 @@ export const SKILLS = [
     },
     {
         id: "07",
+        skills: "Rebranding Company Logo",
+        image: PROJECT_IMG_40,
+        type: "desain",
+        description: "Redesigned BLiP’s brand identity with a modern and friendly logo that reflects smart technology, speed, teamwork, and connectivity, supported by brand guidelines for consistent visual use.",
+        icon: [FiFigma, SiAdobeillustrator, SiAdobephotoshop],
+        link: "https://drive.google.com/drive/folders/1fm03iyxPiy7b-5UvbcY2ojzwI-KNSaTu?usp=sharing",
+    },
+    {
+        id: "08",
         skills: "Procella",
         image: PROJECT_IMG_7,
         type: "programming",
@@ -148,7 +162,7 @@ export const SKILLS = [
         link: "https://github.com/doracans/Procellaa",
     },
     {
-        id: "08",
+        id: "09",
         skills: "RentCar Dashboard ",
         image: PROJECT_IMG_8,
         type: "programming",
@@ -157,7 +171,7 @@ export const SKILLS = [
         link: "https://github.com/doracans/Dashboard-Rent-Car",
     },
     {
-        id: "09",
+        id: "10",
         skills: "Portofolio",
         image: PROJECT_IMG_9,
         type: "programming",
@@ -166,7 +180,7 @@ export const SKILLS = [
         link: "https://github.com/doracans/Portofolio-",
     },
     {
-        id: "10",
+        id: "11",
         skills: "Caffe management",
         image: PROJECT_IMG_10,
         type: "programming",
@@ -175,7 +189,7 @@ export const SKILLS = [
         link: "https://github.com/doracans/UKK",
     },
     {
-        id: "11",
+        id: "12",
         skills: "RentCar",
         image: PROJECT_IMG_11,
         type: "programming",
@@ -184,7 +198,7 @@ export const SKILLS = [
         link: "https://github.com/doracans/Backend-Sewa-Mobil",
     },
     {
-        id: "12",
+        id: "13",
         skills: "Store",
         image: PROJECT_IMG_12,
         type: "programming",
@@ -193,7 +207,7 @@ export const SKILLS = [
         link: "https://github.com/doracans/TransaksiMongodb",
     },
     {
-        id: "13",
+        id: "14",
         skills: "IPTV Documentation",
         image: PROJECT_IMG_13,
         type: "programming",
@@ -202,7 +216,43 @@ export const SKILLS = [
         link: "https://github.com/doracans/BE-IPTV-SEVER5",
     },
     {
-        id: "14",
+        id: "15",
+        skills: "Full Stack Web Development Certificate",
+        image: PROJECT_IMG_37,
+        type: "sertification",
+        description: "Full Stack Web Development Certificate from SMK Telkom Malang 2025",
+        icon: [],
+        link: "https://drive.google.com/file/d/1KU-6NR2sdQN7c4aXQMfMCujPd1ffkKIX/view?usp=sharing",
+    },
+    {
+        id: "16",
+        skills: "Certificate of Competency - Backend Developer",
+        image: PROJECT_IMG_38,
+        type: "sertification",
+        description: "Certificate of Competency in Backend Development from Industry DOT 2025",
+        icon: [],
+        link: "https://drive.google.com/file/d/1aEF_UxUapxWHCEqtVjriWlh0unT2dd3G/view?usp=sharing",
+    },
+    {
+        id: "17",
+        skills: "English Discoveries - International Test Center",
+        image: PROJECT_IMG_36,
+        type: "sertification",
+        description: "EduSoft English Discoveries Certificate 2025",
+        icon: [],
+        link: "https://drive.google.com/file/d/1H0msh4Z-g9IgccKXGhrTbYONe1YDTG5Z/view?usp=sharing",
+    },
+    {
+        id: "18",
+        skills: "Telkom Digiup - Digital Marketing",
+        image: PROJECT_IMG_39,
+        type: "sertification",
+        description: "bootcamp certification from PT. Telkom Indonesia 2025",
+        icon: [],
+        link: "https://drive.google.com/file/d/1B_teIPxQxHlN5L2o4X-IKrOeYCP3_AqU/view?usp=sharing",
+    },
+    {
+        id: "19",
         skills: "Digital Marketing",
         image: PROJECT_IMG_23,
         type: "sertification",
@@ -212,7 +262,7 @@ export const SKILLS = [
 
     },
     {
-        id: "15",
+        id: "20",
         skills: "Awardee Amartha Cendikia Scholarship Batch 3",
         image: PROJECT_IMG_22,
         type: "sertification",
@@ -222,7 +272,7 @@ export const SKILLS = [
 
     },
     {
-        id: "16",
+        id: "21",
         skills: "Indonesian Language Proficiency Test",
         image: PROJECT_IMG_24,
         type: "sertification",
@@ -232,7 +282,7 @@ export const SKILLS = [
 
     },
     {
-        id: "17",
+        id: "22",
         skills: "Information Technology Specialist in Database",
         image: PROJECT_IMG_25,
         type: "sertification",
@@ -242,7 +292,7 @@ export const SKILLS = [
 
     },
     {
-        id: "18",
+        id: "23",
         skills: "Student Wordpress Developer of Teaching Factory Program",
         image: PROJECT_IMG_21,
         type: "sertification",
@@ -252,7 +302,7 @@ export const SKILLS = [
 
     },
     {
-        id: "19",
+        id: "24",
         skills: "3rd Place Innovative Business Competition",
         image: PROJECT_IMG_14,
         type: "sertification",
@@ -261,7 +311,7 @@ export const SKILLS = [
         link: "https://drive.google.com/file/d/1fYEceKY8QtFbISpcfEl0aDJIZ2d1G23N/view?usp=sharing",
     },
     {
-        id: "20",
+        id: "25",
         skills: "Best Project National Student Ambassador",
         image: PROJECT_IMG_15,
         type: "sertification",
@@ -270,7 +320,7 @@ export const SKILLS = [
         link: "https://drive.google.com/file/d/1FyjaJiwjdJu8DBRvWeylEw43-Od4OpVN/view?usp=sharing",
     },
     {
-        id: "21",
+        id: "26",
         skills: "2nd Place Moklet Creatif Challange",
         image: PROJECT_IMG_16,
         type: "sertification",
@@ -279,7 +329,7 @@ export const SKILLS = [
         link: "https://drive.google.com/file/d/1e0w3ZXrgNZbEebqhZPtXC6gcsUoXkVht/view?usp=sharing",
     },
     {
-        id: "22",
+        id: "27",
         skills: "3rd Runner Up Business Idea Competition",
         image: PROJECT_IMG_17,
         type: "sertification",
@@ -288,7 +338,7 @@ export const SKILLS = [
         link: "https://drive.google.com/file/d/1F4h3k99IzoznO7IVfXKgs2RbKTG6RIuy/view?usp=sharing",
     },
     {
-        id: "23",
+        id: "28",
         skills: "Favorite champion Business Case Competition",
         image: PROJECT_IMG_18,
         type: "sertification",
@@ -298,7 +348,7 @@ export const SKILLS = [
 
     },
     {
-        id: "24",
+        id: "29",
         skills: "Semifinalist Business Plan Competition",
         image: PROJECT_IMG_19,
         type: "sertification",
@@ -308,7 +358,7 @@ export const SKILLS = [
 
     },
     {
-        id: "25",
+        id: "30",
         skills: "Top 10 Business Plan Competition",
         image: PROJECT_IMG_20,
         type: "sertification",
@@ -318,7 +368,7 @@ export const SKILLS = [
 
     },
     {
-        id: "26",
+        id: "31",
         skills: "Communication & Time Management",
         image: PROJECT_IMG_26,
         type: "soft-skill",
@@ -326,7 +376,7 @@ export const SKILLS = [
         icon: [],
     },
     {
-        id: "27",
+        id: "32",
         skills: "Problem Solving & Critical Thinking",
         image: PROJECT_IMG_27,
         type: "soft-skill",
@@ -334,7 +384,7 @@ export const SKILLS = [
         icon: [],
     },
     {
-        id: "28",
+        id: "33",
         skills: "Leadership & Teamwork",
         image: PROJECT_IMG_28,
         type: "soft-skill",
@@ -342,7 +392,7 @@ export const SKILLS = [
         icon: [],
     },
     {
-        id: "29",
+        id: "34",
         skills: "Public Speaking",
         image: PROJECT_IMG_29,
         type: "soft-skill",
@@ -350,7 +400,7 @@ export const SKILLS = [
         icon: [],
     },
     {
-        id: "30",
+        id: "35",
         skills: "Version Control & Tools",
         image: PROJECT_IMG_30,
         type: "soft-skill",
@@ -359,7 +409,7 @@ export const SKILLS = [
         link: "",
     },
     {
-        id: "31",
+        id: "36",
         skills: "UI/UX Design",
         image: PROJECT_IMG_31,
         type: "soft-skill",
@@ -367,7 +417,7 @@ export const SKILLS = [
         icon: [FiFigma, SiCanva, SiPhotopea],
     },
     {
-        id: "32",
+        id: "37",
         skills: "Web Programming",
         image: PROJECT_IMG_32,
         type: "soft-skill",
@@ -375,7 +425,7 @@ export const SKILLS = [
         icon: [FaReact, BiLogoJavascript, BiLogoTypescript, RiTailwindCssFill, FaNodeJs, SiExpress, SiMongodb, SiMysql],
     },
     {
-        id: "33",
+        id: "38",
         skills: "Digital Marketing",
         image: PROJECT_IMG_33,
         type: "soft-skill",
@@ -383,7 +433,7 @@ export const SKILLS = [
         icon: [SiGoogleanalytics, FaInstagram,],
     },
     {
-        id: "34",
+        id: "39",
         skills: "NetStream brochure",
         image: PROJECT_IMG_34,
         type: "desain",
@@ -392,7 +442,7 @@ export const SKILLS = [
         link: "https://www.canva.com/design/DAGpFuSXEwk/3SV0Wh5V7ee3cRbyeKwZcA/edit?utm_content=DAGpFuSXEwk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     },
     {
-        id: "35",
+        id: "40",
         skills: "Jeras Product",
         image: PROJECT_IMG_35,
         type: "desain",
@@ -400,6 +450,7 @@ export const SKILLS = [
         icon: [SiCanva],
         link: "https://www.canva.com/design/DAGYTW2f3Ik/x-EMBixP1UZswjitpJk4Og/edit?utm_content=DAGYTW2f3Ik&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     },
+
 
 
 ];
