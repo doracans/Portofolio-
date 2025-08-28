@@ -145,10 +145,10 @@ export const SKILLS = [
     },
     {
         id: "07",
-        skills: "Rebranding Company Logo",
+        skills: "Company Logo",
         image: PROJECT_IMG_40,
         type: "desain",
-        description: "Redesigned BLiP’s brand identity with a modern and friendly logo that reflects smart technology, speed, teamwork, and connectivity, supported by brand guidelines for consistent visual use.",
+        description: "Redesigned BLiP’s logo with modern identity symbolizing technology, speed, teamwork, and connectivity.",
         icon: [FiFigma, SiAdobeillustrator, SiAdobephotoshop],
         link: "https://drive.google.com/drive/folders/1fm03iyxPiy7b-5UvbcY2ojzwI-KNSaTu?usp=sharing",
     },
